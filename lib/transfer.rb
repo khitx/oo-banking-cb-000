@@ -1,8 +1,8 @@
 class Transfer
-  attr_accessor :origin, :destination, :amount
+  attr_accessor :sender, :destination, :amount
 
-  def initialize(origin, destination, amount)
-    @origin = origin
+  def initialize(sender, destination, amount)
+    @sender = sender
     @destination = destination
     @amount = amount
   end
